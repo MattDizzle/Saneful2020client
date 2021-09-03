@@ -17,6 +17,7 @@ const Login = (props) => {
   useEffect(() => {
     userContext.setError(null);
     userContext.setStartClicked(false);
+    // eslint-disable-next-line 
   }, []);
 
   const { values, handleChange, reset } = useForm({ email: "", password: "" });

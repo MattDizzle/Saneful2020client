@@ -44,7 +44,9 @@ const GameWindow = () => {
     health_points_max,
     sanity_points,
     sanity_points_max,
+    // eslint-disable-next-line
     dead,
+    // eslint-disable-next-line
     character_skin,
     elapsed_time,
   } = gameContext.gameData;
@@ -86,7 +88,9 @@ const GameWindow = () => {
   const [health, setHealth] = useState(health_points);
   const [sanity, setSanity] = useState(sanity_points);
   const [money, setMoney] = useState(money_counter);
+  // eslint-disable-next-line
   const [maxHealth, setMaxHealth] = useState(health_points_max);
+  // eslint-disable-next-line
   const [maxSanity, setMaxSanity] = useState(sanity_points_max);
   const [healthTick, setHealthTick] = useState(0);
   const [sanityTick, setSanityTick] = useState(0);

@@ -17,6 +17,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     determineCurrent();
+    // eslint-disable-next-line 
   }, []);
 
   const determineCurrent = async () => {

@@ -16,6 +16,7 @@ const Register = () => {
 
   useEffect(() => {
     userContext.setError(null);
+    // eslint-disable-next-line 
   }, []);
 
   const { values, handleChange, reset } = useForm({
