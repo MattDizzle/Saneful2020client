@@ -1,20 +1,25 @@
 
 .fullscreen-bg {
-  position: absolute;
-  // overflow: hidden;
+display: flex;
+flex-direction: column;
   z-index: -5;
   width: 100vw;
+  height: 100vh;
 }
 
 .fullscreen-bg__video {
-  position: absolute;
-  width: 100vw;
+  height: 90vh;
 }
 
-.startButton {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  background: transparent;
-  border: none;
+
+p {
+  text-align: center;
+  z-index: 5;
+}
+
+@media (min-width: 1100) {
+  .fullscreen-bg__video {
+    width: 100vw;
+  }
+  
 }
