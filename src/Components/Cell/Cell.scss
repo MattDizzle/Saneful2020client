@@ -1,0 +1,28 @@
+.cell {
+  // border: 1px gray solid;
+  visibility: visible;
+  width: 10vw;
+  height: 10vw;
+  max-height: 52px;
+  max-width: 52px;
+}
+
+.action-cell{
+  width: 10vw;
+  height: 10vw;
+  max-height: 52px;
+  max-width: 52px;
+}
+
+.action-cell img{
+  visibility:hidden;
+}
+
+.action-cell:hover img{
+  visibility:visible;
+  margin-top: -9vw;
+}
+
+.cell:hover{
+  border: rgba(0, 0, 0, 0.247) dotted 2px;
+}

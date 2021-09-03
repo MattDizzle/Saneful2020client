@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot test Renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="Header"
+  >
+    <nav>
+      <ul
+        className="nav-bar"
+      >
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Login
+          </a>
+        </li>
+        <li>
+          <a
+            href="/register"
+            onClick={[Function]}
+          >
+            Sign up
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div
+      className="Login"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="navywhitelogo.png"
+      />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          name="email"
+          onChange={[Function]}
+          placeholder="Enter email..."
+          type="email"
+          value=""
+        />
+        <input
+          name="password"
+          onChange={[Function]}
+          placeholder="Enter password..."
+          type="password"
+          value=""
+        />
+        <button
+          className="loginButton"
+          type="submit"
+        >
+          Log In
+        </button>
+        <div
+          className="error-message"
+          role="alert"
+        />
+        <div
+          className="demo-creds"
+        >
+          <h4>
+            guest account
+          </h4>
+          <p>
+            email: guest@saneful.com
+          </p>
+          <p>
+            password: San3fu!!
+          </p>
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+`;

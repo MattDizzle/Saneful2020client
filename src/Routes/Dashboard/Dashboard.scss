@@ -1,0 +1,45 @@
+.Dashboard h2{
+  margin: 5vh 0 0 0;
+}
+
+.Dashboard h3{
+  text-decoration: underline;
+}
+
+.write-up{
+  margin: 5vh auto 10vh auto;
+  text-align: left;
+  width: 80%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.to-game-button{
+  margin-top: 3vh;
+  padding: 1rem;
+  font-size: 1rem;
+  border-top: rgb(196, 196, 196) solid 2px;
+  border-left: rgb(196, 196, 196) solid 2px;
+  border-right: rgb(114, 114, 114) solid 2px;
+  border-bottom: rgb(114, 114, 114) solid 2px;
+  color: white;
+  background-color: #171058;
+}
+
+.to-game-button:hover{
+  border-top: rgb(114, 114, 114) solid 2px;
+  border-left: rgb(114, 114, 114) solid 2px;
+  border-right: rgb(196, 196, 196) solid 2px;
+  border-bottom: rgb(196, 196, 196) solid 2px;
+  background-color: #100b3f;
+}
+
+.to-game-button:active{
+  color: gold;
+}
+
+@media only screen and (min-width: 600px) {
+  .write-up{
+    line-height: 1.7rem;
+  }
+}
