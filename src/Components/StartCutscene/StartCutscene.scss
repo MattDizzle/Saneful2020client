@@ -1,25 +1,32 @@
-
 .fullscreen-bg {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: -5;
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.fullscreen-bg__video {
-  height: 90vh;
+video {
+  height: 100vh;
+  object-fit: fill;
 }
 
 
-p {
+.push {
   text-align: center;
+  position: absolute;
+  top: 50vh;
   z-index: 5;
+  color: crimson;
 }
 
 @media (min-width: 1100) {
   .fullscreen-bg__video {
-    width: 100vw;
+    width: 100%;
   }
-  
+
 }

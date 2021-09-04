@@ -53,6 +53,7 @@ const Login = (props) => {
         <img src={logo} className="logo" alt="logo" />
         {loading ? 'Loading...' : <form onSubmit={handleSubmit}>
           <input
+            autoComplete="on"
             type="email"
             name="email"
             placeholder="Enter email..."
@@ -60,6 +61,7 @@ const Login = (props) => {
             value={values.email}
           />
           <input
+            autoComplete="on"
             type="password"
             name="password"
             placeholder="Enter password..."
@@ -82,8 +84,6 @@ const Login = (props) => {
   } else {
     return (
       <StartCutscene />
-      // <StartCutscene startPressed={startPressed} setStartPressed={setStartPressed} />
-
     );
   }
 };

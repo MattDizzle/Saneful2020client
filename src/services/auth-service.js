@@ -1,4 +1,3 @@
-
 const AuthApiService = {
   postUser(user) {
     return fetch(`${process.env.REACT_APP_API_ENDPOINT}/user`, {

@@ -79,6 +79,7 @@ const Register = () => {
       <img src={logo} className="logo" alt="logo" />
       {loading ? 'Loading...' : <form onSubmit={handleSubmit}>
         <input
+          autocomplete="on"
           type="text"
           name="username"
           placeholder="Enter username"
@@ -86,6 +87,7 @@ const Register = () => {
           value={values.username}
         />
         <input
+          autocomplete="on"
           type="email"
           name="email"
           placeholder="Enter email"
@@ -93,6 +95,7 @@ const Register = () => {
           value={values.email}
         />
         <input
+          autoComplete="on"
           onKeyUp={e => active(e)}
           type="password"
           name="password"
@@ -101,6 +104,7 @@ const Register = () => {
           value={values.password}
         />
         {passwordIn && <input
+          autoComplete="on"
           type="password"
           name="confirmPassword"
           placeholder="Confirm password"
