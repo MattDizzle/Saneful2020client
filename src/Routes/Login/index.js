@@ -5,8 +5,6 @@ import logo from '../../navywhitelogo.png';
 import AuthApiService from '../../services/auth-service';
 import UserContext from '../../Context/UserContext';
 import StartCutscene from '../../Components/StartCutscene/StartCutscene';
-
-
 import './Login.scss';
 
 const Login = (props) => {
@@ -17,7 +15,8 @@ const Login = (props) => {
   useEffect(() => {
     userContext.setError(null);
     userContext.setStartClicked(false);
-    // eslint-disable-next-line 
+    console.log(process.env.REACT_APP_API_ENDPOINT)
+     // eslint-disable-next-line 
   }, []);
 
   const { values, handleChange, reset } = useForm({ email: "", password: "" });

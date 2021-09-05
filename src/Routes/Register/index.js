@@ -79,7 +79,7 @@ const Register = () => {
       <img src={logo} className="logo" alt="logo" />
       {loading ? 'Loading...' : <form onSubmit={handleSubmit}>
         <input
-          autocomplete="on"
+          autoComplete="on"
           type="text"
           name="username"
           placeholder="Enter username"
@@ -87,7 +87,7 @@ const Register = () => {
           value={values.username}
         />
         <input
-          autocomplete="on"
+          autoComplete="on"
           type="email"
           name="email"
           placeholder="Enter email"

@@ -5,7 +5,6 @@ import './StartCutscene.scss';
 
 const StartCutscene = () => {
   const userContext = useContext(UserContext);
-  console.log(process.env.REACT_APP_API_ENDPOINT)
 
   return (
     <section>
