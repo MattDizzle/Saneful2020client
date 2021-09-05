@@ -54,7 +54,6 @@ video {
 }
 
 .video-logo {
-  
   @include for-phone-only {
     z-index: 10;
     position: absolute;
@@ -69,10 +68,10 @@ video {
 }
 
 .push {
-
   @include for-phone-only {
     top: 50%;
-    font-size: 1.3em;
+    margin-top: 10px;
+    font-size: 1.0em;
   }
 
   text-align: center;
