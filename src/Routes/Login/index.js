@@ -15,7 +15,6 @@ const Login = (props) => {
   useEffect(() => {
     userContext.setError(null);
     userContext.setStartClicked(false);
-    console.log(process.env.REACT_APP_API_ENDPOINT)
      // eslint-disable-next-line 
   }, []);
 
