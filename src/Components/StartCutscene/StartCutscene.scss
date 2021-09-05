@@ -48,6 +48,7 @@ video {
   z-index: 2;
   @include for-phone-only {
     min-height: 100vh;
+    overflow:hidden;
   }
 
 }

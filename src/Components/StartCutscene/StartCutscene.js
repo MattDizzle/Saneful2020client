@@ -10,7 +10,9 @@ const StartCutscene = () => {
   return (
     <section>
       <div className="fullscreen-bg">
-        <video onClick={() => userContext.setStartClicked(true)} playsInline autoPlay={true} muted loop src={cutscene_start} className="fullscreen-bg__video" type="video.mp4" />
+      <video onClick={() => userContext.setStartClicked(true)} id="fullscreen-bg__video" width="100%" height="100%" playsInline autoPlay={true} muted loop>
+        <source src={cutscene_start} type="video/mp4" />
+    </video>
         {userContext.startClicked ? <></> :<p className='push'>click to start</p> }
         {userContext.startClicked ? <></> :<img src={videologo} className='video-logo' alt='saneful logo'/> }
       </div>
